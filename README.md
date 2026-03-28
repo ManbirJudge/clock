@@ -1,4 +1,4 @@
-`**⚠️NOTE⚠️:** Work in progress 🚧`
+`⚠️NOTE⚠️: Work in progress 🚧`
 # Clock
 A clock app.
 ## TODOs

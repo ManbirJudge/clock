@@ -1,4 +1,4 @@
-python -m nuitka main.py \
+python -m nuitka src/main.py \
     --standalone \
     --enable-plugin=tk-inter \
     --include-package=plyer \

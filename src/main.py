@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
-
-from tabs import TimerTab, WorldClockTab
+ 
+from tabs import StopwatchTab, TimerTab, WorldClockTab
 
 class MainWindow(tk.Tk):
     def __init__(self):
@@ -23,7 +23,7 @@ class MainWindow(tk.Tk):
 
         alarm_tab = tk.Frame(tabs)
         world_clock_tab = WorldClockTab(tabs)
-        stopwatch_tab = tk.Frame(tabs)
+        stopwatch_tab = StopwatchTab(tabs)
         timer_tab = TimerTab(tabs) 
 
         tabs.add(alarm_tab, text='Alarm')
@@ -32,6 +32,8 @@ class MainWindow(tk.Tk):
         tabs.add(timer_tab, text='Timer')
 
         tabs.pack(expand=True, fill='both')
+
+        tabs.select(2)
 
 if __name__ == '__main__':
     wnd = MainWindow()

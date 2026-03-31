@@ -1,7 +1,10 @@
+# required by Nuitka
 cffi==2.0.0
 dbus-python==1.4.0
 patchelf==0.17.2.4
-Nuitka==4.0.7
 
+# ---
 just_playback==0.1.8
 plyer==2.1.0
+Nuitka==4.0.7
+pyperclip==1.11.0

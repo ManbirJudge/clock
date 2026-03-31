@@ -8,3 +8,7 @@ python -m nuitka src/main.py \
     --output-dir=build \
     --lto=yes \
     --jobs=8
+
+cp assets build/main.dist -r
+
+# TODO: automatically remove un-neede libs from build/main.dist folder
